@@ -135,10 +135,12 @@ main {
     background-position: 0 50%;
     width: 85%;
     height: 841px;
-    margin: 0 auto 0 auto;
+    margin: 0 auto 30px auto;
     display: flex;
     justify-content: center;
     align-items: start;
+    border: 2px solid green;
+    border-radius: 5px;
 }
 
 .main-image svg {
@@ -161,6 +163,10 @@ main {
     min-height: 825px;
     position: relative;
     z-index: 1;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .photos-two {
@@ -178,9 +184,12 @@ main {
 .yellow-square {
     background-color: #FBFFA7;
     height: 100%;
-    width: 60%;
+    width: 65%;
     position: absolute;
     right: 0;
+    z-index: 1;
+    right: 50%;
+    transform: translate(50%, 0);
 }
 
 .green-square {
@@ -203,29 +212,23 @@ main {
 }
 
 #photo1 {
-    width: 650px;
+    width: 400px;
     display: block;
-    position: absolute;
     aspect-ratio: 1536 / 2048;
-    top: 50%;
-    transform: translate(0, -50%);
-    left: 8%;
+    z-index: 3;
 }
 
 #photo2 {
     width: 500px;
     display: block;
-    position: absolute;
     aspect-ratio: 1536 / 2048;
-    right: 10%;
-    top: 50%;
-    transform: translate(0, -50%);
+    z-index: 3;
 }
 
 #photo3 {
     display: block;
     position: absolute;
-    aspect-ratio: 1762 / 1322;
+    aspect-ratio: 2048 / 1536;
     width: 500px;
     left: 8%;
     top: 10%;
@@ -268,4 +271,11 @@ main {
     right: 0;
     top: 50%;
     transform: translate(0, -50%);
+}
+
+#photo8 {
+    display: block;
+    aspect-ratio: 1536 / 2048;
+    width: 400px;
+    z-index: 3;
 }
