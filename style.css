@@ -12,6 +12,7 @@ body {
     font-family: Inter, sans-serif;
     background-color: var(--background-gray);
     margin: 0;
+    min-width: 100%;
 }
 
 main {
@@ -36,7 +37,7 @@ main {
 
 .nav-link {
     margin: 0 20px;
-    font-size: 17px;
+    font-size: 1rem;
     font-weight: 500;
     text-decoration: none;
     color: black;
@@ -122,7 +123,7 @@ main {
 
 .sticky-list-link {
     font-weight: 600;
-    font-size: 14px;
+    font-size: 1rem;
     margin-right: 30px;
     text-decoration: none;
     color: black;
@@ -167,18 +168,27 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .photos-two {
     position: relative;
     z-index: 1;
     min-height: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .photos-three {
     position: relative;
     z-index: 1;
     min-height: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .yellow-square {
@@ -187,7 +197,7 @@ main {
     width: 65%;
     position: absolute;
     right: 0;
-    z-index: 1;
+    z-index: 0;
     right: 50%;
     transform: translate(50%, 0);
 }
@@ -216,6 +226,8 @@ main {
     display: block;
     aspect-ratio: 1536 / 2048;
     z-index: 3;
+    border: 3px solid #ced638;
+    border-radius: 10px;
 }
 
 #photo2 {
@@ -223,54 +235,71 @@ main {
     display: block;
     aspect-ratio: 1536 / 2048;
     z-index: 3;
+    border: 3px solid #ced638;
+    border-radius: 10px;
 }
 
 #photo3 {
     display: block;
-    position: absolute;
+    /* position: absolute; */
     aspect-ratio: 2048 / 1536;
     width: 500px;
-    left: 8%;
-    top: 10%;
+    /* left: 8%; */
+    /* top: 10%; */
+    z-index: 3;
+    border: 3px solid #2ba53b;
+    border-radius: 10px;
 }
 
 #photo4 {
     display: block;
-    position: absolute;
+    /* position: absolute; */
     aspect-ratio: 2048 / 1536;
     width: 500px;
-    left: 8%;
-    bottom: 10%;
+    /* left: 8%; */
+    /* bottom: 10%; */
+    z-index: 3;
+    border: 3px solid #2ba53b;
+    border-radius: 10px;
 }
 
 #photo5 {
     display: block;
-    position: absolute;
+    /* position: absolute; */
     aspect-ratio: 2048 / 1536;
     width: 700px;   
-    right: 10%;
-    top: 50%;
-    transform: translate(0, -50%);
+    /* right: 10%; */
+    /* top: 50%; */
+    /* transform: translate(0, -50%); */
+    z-index: 3;
+    border: 3px solid #2ba53b;
+    border-radius: 10px;
 }
 
 #photo6 {
     display: block;
-    position: absolute;
+    /* position: absolute; */
     aspect-ratio: 2560 / 1707;
     width: 500px;
-    top: 50%;
-    transform: translate(0, -50%);
-    left: 8%;
+    /* top: 50%; */
+    /* transform: translate(0, -50%); */
+    /* left: 8%; */
+    z-index: 3;
+    border: 3px solid #9d4dff;
+    border-radius: 10px;
 }
 
 #photo7 {
     display: block;
-    position: absolute;
+    /* position: absolute; */
     aspect-ratio: 1600 / 1200;
     width: 700px;
-    right: 0;
-    top: 50%;
-    transform: translate(0, -50%);
+    /* right: 0; */
+    /* top: 50%; */
+    /* transform: translate(0, -50%); */
+    z-index: 3;
+    border: 3px solid #9d4dff;
+    border-radius: 10px;
 }
 
 #photo8 {
@@ -278,4 +307,6 @@ main {
     aspect-ratio: 1536 / 2048;
     width: 400px;
     z-index: 3;
+    border: 3px solid #ced638;
+    border-radius: 10px;
 }
