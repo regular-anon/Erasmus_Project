@@ -71,7 +71,7 @@ main {
 .dropdown-div {
     padding: 10px 40px;
     overflow-y: scroll;
-    max-height: 200px;
+    max-height: 500px;
     border: 1px solid rgb(20, 7, 197);
 }
 
@@ -130,18 +130,18 @@ main {
 }
 
 .main-image {
-    background-image: url(Sources/background3.png);
+    /* background-image: url(Sources/background3.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 0 50%;
+    background-position: 50% 50%; */
     width: 85%;
-    height: 841px;
+    /* height: 841px; */
     margin: 0 auto 30px auto;
     display: flex;
     justify-content: center;
     align-items: start;
-    border: 2px solid green;
-    border-radius: 5px;
+    /* border: 2px solid green;
+    border-radius: 5px; */
 }
 
 .main-image svg {
@@ -149,8 +149,9 @@ main {
 }
 
 .paragraph {
-    max-width: 50%;
+    max-width: 60%;
     margin: 50px auto 100px auto;
+    min-width: 500px;
 }
 
 .paragraph h2 {
@@ -207,8 +208,9 @@ main {
     height: 100%;
     width: 60%;
     position: absolute;
-    left: 0;
+    left: 50%;
     z-index: 0;
+    transform: translate(-50%, 0);
 }
 
 .purple-square {
