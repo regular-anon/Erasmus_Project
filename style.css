@@ -130,18 +130,11 @@ main {
 }
 
 .main-image {
-    /* background-image: url(Sources/background3.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%; */
     width: 85%;
-    /* height: 841px; */
     margin: 0 auto 30px auto;
     display: flex;
     justify-content: center;
     align-items: start;
-    /* border: 2px solid green;
-    border-radius: 5px; */
 }
 
 .main-image svg {
@@ -243,11 +236,8 @@ main {
 
 #photo3 {
     display: block;
-    /* position: absolute; */
     aspect-ratio: 2048 / 1536;
     width: 500px;
-    /* left: 8%; */
-    /* top: 10%; */
     z-index: 3;
     border: 3px solid #2ba53b;
     border-radius: 10px;
@@ -255,11 +245,8 @@ main {
 
 #photo4 {
     display: block;
-    /* position: absolute; */
     aspect-ratio: 2048 / 1536;
     width: 500px;
-    /* left: 8%; */
-    /* bottom: 10%; */
     z-index: 3;
     border: 3px solid #2ba53b;
     border-radius: 10px;
@@ -267,12 +254,8 @@ main {
 
 #photo5 {
     display: block;
-    /* position: absolute; */
     aspect-ratio: 2048 / 1536;
     width: 700px;   
-    /* right: 10%; */
-    /* top: 50%; */
-    /* transform: translate(0, -50%); */
     z-index: 3;
     border: 3px solid #2ba53b;
     border-radius: 10px;
@@ -280,12 +263,8 @@ main {
 
 #photo6 {
     display: block;
-    /* position: absolute; */
     aspect-ratio: 2560 / 1707;
     width: 500px;
-    /* top: 50%; */
-    /* transform: translate(0, -50%); */
-    /* left: 8%; */
     z-index: 3;
     border: 3px solid #9d4dff;
     border-radius: 10px;
@@ -293,12 +272,8 @@ main {
 
 #photo7 {
     display: block;
-    /* position: absolute; */
     aspect-ratio: 1600 / 1200;
     width: 700px;
-    /* right: 0; */
-    /* top: 50%; */
-    /* transform: translate(0, -50%); */
     z-index: 3;
     border: 3px solid #9d4dff;
     border-radius: 10px;
